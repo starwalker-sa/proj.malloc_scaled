@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{003bb6ba-7c24-4316-9823-9957b2bcb5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{ec49e0f5-139f-43d0-a660-3d54698039d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\test_mthread_perf_malloc_scaled\public\test_mthread_perf_malloc.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\test_mthread_perf_malloc_scaled\public\timer.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\test_mthread_perf_malloc_scaled\public\platform.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\test_mthread_perf_malloc_scaled\private\test_mthread_perf_malloc.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\test_mthread_perf_malloc_scaled\private\test_mthread_perf_malloc_main.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\test_mthread_perf_malloc_scaled\private\timer.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

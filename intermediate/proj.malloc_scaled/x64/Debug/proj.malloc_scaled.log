@@ -1,0 +1,13 @@
+﻿  malloc_scaled.cpp
+  mem_allocator.cpp
+  timer.cpp
+  unix_platform_critical_section.cpp
+  unix_platform_malloc.cpp
+  vm_block.cpp
+  page_malloc.cpp
+  win_dll_main.cpp
+  win_platform_critical_section.cpp
+  win_platform_malloc.cpp
+  Generating Code...
+     Creating library C:\source\proj.malloc_scaled\bin\x64\Debug\proj.malloc_scaled.lib and object C:\source\proj.malloc_scaled\bin\x64\Debug\proj.malloc_scaled.exp
+  proj.malloc_scaled.vcxproj -> C:\source\proj.malloc_scaled\bin\x64\Debug\proj.malloc_scaled.dll

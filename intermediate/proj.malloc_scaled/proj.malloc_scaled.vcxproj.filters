@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{02cbc9dc-5901-478f-b846-a845d9c3a918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{7285c874-c2ef-4067-95e6-4f8d5a6417ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Win">
+      <UniqueIdentifier>{2deaf9bb-eb30-4ff4-93a7-4dc43bf23b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Win">
+      <UniqueIdentifier>{f2dd2ffd-0c9d-4be4-9eb2-d54f88fe2ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Unix">
+      <UniqueIdentifier>{d3379b9d-5203-4fa2-9955-d82e315804a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Unix">
+      <UniqueIdentifier>{5bb665ab-ce8e-4cb4-abfc-6c56f3361f0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\malloc_scaled\public\align.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\build.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\defs.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\element_build.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\imalloc.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\list_base.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\malloc_base.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\malloc_stats.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\malloc_scaled.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\mem_allocator.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\mem_block.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\platform_malloc.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\platform_memory.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\search_min_max.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\std.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\timer.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\vm_block.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\win\win_platform_malloc.h">
+      <Filter>Public\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\unix\unix_platform_malloc.h">
+      <Filter>Public\Unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\lib_malloc.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\win\win_platform_critical_section.h">
+      <Filter>Public\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\critical_section.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\platform_critical_section.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\win\win.h">
+      <Filter>Public\Win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\unix\unix_platform_critical_section.h">
+      <Filter>Public\Unix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\platform.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\malloc_scaled\public\time_stats.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\malloc_scaled\private\malloc_scaled.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\mem_allocator.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\timer.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\vm_block.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\win\win_platform_malloc.cpp">
+      <Filter>Private\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\unix\unix_platform_malloc.cpp">
+      <Filter>Private\Unix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\win\win_dll_main.cpp">
+      <Filter>Private\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\page_malloc.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\win\win_platform_critical_section.cpp">
+      <Filter>Private\Win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\malloc_scaled\private\unix\unix_platform_critical_section.cpp">
+      <Filter>Private\Unix</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

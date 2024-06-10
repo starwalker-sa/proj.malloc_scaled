@@ -1,0 +1,77 @@
+=============== Memory allocator performance tests ===============
+
+--------------------- BLOCK ALLOCATION TEST ----------------------
+MALLOC PERF TEST: Thread: 9584
+Allocating of memory blocks of constant size:
+Block size: 32 Bytes	Block count: 10000000
+
+---------- MALLOC: ALLOCATIONS: SUMMARISED time stats ------------
+Performance test results: Test number: 0
+Number of allocated memory blocks: 10000000
+
+Memory block allocation: max time : 275000.000000  ns;  275.000000  us
+Memory block allocation: min time : 100.000000  ns;  0.100000  us
+Memory block allocation: avg time : 329.000000  ns;  0.329000  us
+==================================================================
+
+
+--------------------- BLOCK ALLOCATION TEST ----------------------
+MALLOC PERF TEST: Thread: 9584
+Allocating of memory blocks of constant size:
+Block size: 65536 Bytes	Block count: 100000
+
+---------- MALLOC: ALLOCATIONS: SUMMARISED time stats ------------
+Performance test results: Test number: 1
+Number of allocated memory blocks: 100000
+
+Memory block allocation: max time : 78800.000000  ns;  78.800000  us
+Memory block allocation: min time : 900.000000  ns;  0.900000  us
+Memory block allocation: avg time : 1786.000000  ns;  1.786000  us
+==================================================================
+
+
+--------------------- BLOCK RELEASING TEST -----------------------
+MALLOC PERF TEST: Thread: 9584
+Releasing of memory blocks of variable size:
+Min size: 8 Bytes	Max size: 8388608 Bytes	Block count: 2097152
+
+---------- MALLOC: RELEASES: SUMMARISED time stats ---------------
+Performance test results: Test number: 2
+Number of released memory blocks : 2097152
+Memory block releasing max time : 228500.000000  ns;  228.500000  us
+Memory block releasing min time : 0.000000  ns;  0.000000  us
+Memory block releasing avg time : 566.000000  ns;  0.566000  us
+==================================================================
+
+
+------------------- SMALL REALLOCATIONS TEST ---------------------
+MALLOC PERF TEST: Thread: 9584
+Small reallocations of memory blocks of variable size:
+Min size: 8 Bytes	Max size: 8388608 Bytes	Block count: 32768
+
+---------- MALLOC: REALLOCATIONS: SUMMARISED time stats ----------
+Performance test results: Test number: 3
+Number of reallocated memory blocks : 32768
+Memory block reallocation max time : 73700.000000  ns;  73.700000  us
+Memory block reallocation min time : 0.000000  ns;  0.000000  us
+Memory block reallocation avg time : 133.000000  ns;  0.133000  us
+==================================================================
+
+
+------------------- BIG REALLOCATIONS TEST ---------------------
+MALLOC PERF TEST: Thread: 9584
+Big reallocations of memory blocks of variable size:
+Min size: 8 Bytes	Max size: 8388608 Bytes	Block count: 32768
+
+---------- MALLOC: REALLOCATIONS: SUMMARISED time stats ----------
+Performance test results: Test number: 4
+Number of reallocated memory blocks : 32768
+Memory block reallocation max time : 132000.000000  ns;  132.000000  us
+Memory block reallocation min time : 0.000000  ns;  0.000000  us
+Memory block reallocation avg time : 3691.000000  ns;  3.691000  us
+==================================================================
+
+
+Total time of execution :157.345890 seconds
+============================== END ===============================
+

@@ -1,0 +1,8 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  test_mthread_perf_malloc.cpp
+  Generating code
+  5 of 392 functions ( 1.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  proj.test_mthread_perf_malloc_scaled.vcxproj -> C:\source\proj.malloc_scaled\bin\x64\Release\proj.test_mthread_perf_malloc_scaled.exe

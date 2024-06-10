@@ -1,0 +1,5 @@
+﻿  test_mthread_perf_malloc.cpp
+  test_mthread_perf_malloc_main.cpp
+  timer.cpp
+  Generating Code...
+  proj.test_mthread_perf_malloc_scaled.vcxproj -> C:\source\proj.malloc_scaled\bin\x64\Debug\proj.test_mthread_perf_malloc_scaled.exe

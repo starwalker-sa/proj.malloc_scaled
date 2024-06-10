@@ -1,0 +1,10 @@
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\malloc_scaled.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\malloc_scaled.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\mem_allocator.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\mem_allocator.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\timer.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\timer.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\unix\unix_platform_critical_section.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\unix_platform_critical_section.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\unix\unix_platform_malloc.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\unix_platform_malloc.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\vm_block.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\vm_block.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\page_malloc.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\page_malloc.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\win\win_dll_main.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\win_dll_main.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\win\win_platform_critical_section.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\win_platform_critical_section.obj
+C:\source\proj.malloc_scaled\source\malloc_scaled\private\win\win_platform_malloc.cpp;C:\source\proj.malloc_scaled\intermediate\proj.malloc_scaled\x64\Debug\win_platform_malloc.obj
