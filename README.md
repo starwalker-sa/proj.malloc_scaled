@@ -33,10 +33,10 @@ AMD64 Ryzen 7 6800H with Radeon Graphics  3.20 GHz 8 Cores 16 threads.
 RAM 16 GB
 
 ![](/pics/avg_alloc_time_test_1_thread.png)<br />
- Figure 1. Average allocation time of 10'000'000 blocks of 32 byte size by one thread
+ Figure 1. Average allocation time of 10'000'000 blocks of 32 byte size allocated by one thread
  
 ![](/pics/avg_alloc_time_test_5_thread.png)<br />
- Figure 2. Average allocation time of 10'000'000 blocks of 32 byte size by 5 threads<br />
+ Figure 2. Average allocation time of 10'000'000 blocks of 32 byte size allocated by 5 threads<br />
 
  # Detailed performance tests results
 Also full info about performance test results you may see in the following files:
