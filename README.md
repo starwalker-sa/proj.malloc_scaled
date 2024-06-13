@@ -1,16 +1,34 @@
-CopyRight by Anton Sheludko
+Copyright by Anton Sheludko
 
-MY SIMPLE SCALED MEMORY ALLOCATOR
+# Simple Scaled Memory Allocator
 
+Scaled memory allocator - is a general purpose memory pool allocator.<br />
+It allocates, reallocates and releases memory blocks of various sizes in constant time.
 
-Description
+The memory allocator was built in and successfuly tested on UNREAL ENGINE 5.4.<br />
+Future versions of the malloc will be much more optimized.
 
-MALLOC SCALED - is a general purpose memory allocator.
-It allocates, reallocates and releases memory blocks of various sizes.
+# Source structure
+ 1. source/malloc_scaled      - the malloc source code;
+ 2. source/test_malloc_scaled - single malloc tests source code;
+ 3. source/test_mthread_perf_malloc_scaled - multithreaded performance malloc tests sources;
+ 4. source/malloc_scaled_for_UNREAL_ENGINE_5_4 - malloc source code for UE5;
 
-MALLOC WAS BUILT IN AND SUCCESSFULY TESTED ON UNREAL ENGINE 5.4
+# How to launch
+In your command line run /bin/x64/Release/proj.test_mthread_perf_malloc_scaled.exe --thread-count=N, where N - number of simultaneous testing threads;<br />
+By default N=5;<br />
+Number of 32 byte blocks allocated by one thread is 10000000; 
 
-Future versions of the malloc will be much more optimized
+# Performance tests
+ There are 5 types of tests:
+ 1. Allocating blocks of constant size: 32 bytes and 64KB
+ 2. Multiple allocating and releasing blocks
+ 3. Allocating blocks of increasing size: for ex. from 8 byte till 8MB in arithmetic progression
+ 4. Tests of small reallocations of blocks;
+ 5. Tests of big reallocations of blocks;
+
+# Performance tests results
+![](/pics/)
 
 Performance test results you may see in the following files:
 
