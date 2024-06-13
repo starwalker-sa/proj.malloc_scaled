@@ -28,6 +28,10 @@ Number of 32 byte blocks allocated by one thread is 10000000;
  5. Tests of big reallocations of blocks;
 
 # Performance tests results
+All tests was performed on machine:
+AMD64 Ryzen 7 6800H with Radeon Graphics  3.20 GHz 8 Cores 16 threads.
+RAM 16 GB
+
 ![](/pics/avg_alloc_time_test_1_thread.png)<br />
  Figure 1. Average allocation time of 10'000'000 blocks of 32 byte size by one thread
  
