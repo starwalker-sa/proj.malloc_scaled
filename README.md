@@ -37,8 +37,9 @@ RAM 16 GB
  
 ![](/pics/avg_alloc_time_test_5_thread.png)<br />
  Figure 2. Average allocation time of 10'000'000 blocks of 32 byte size by 5 threads<br />
- 
-Alos full info about performance test results you may see in the following files:
+
+ # Detailed performance tests results
+Also full info about performance test results you may see in the following files:
 
 1. "single_thread_perf_tests.txt"          - time statistics of memory operations performed by single thread
 2. "multi_thread_perf_tests_5_threads.txt" - time statistics of memory operations performed by 5 threads
