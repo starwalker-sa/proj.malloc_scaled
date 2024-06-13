@@ -32,7 +32,7 @@ Number of 32 byte blocks allocated by one thread is 10000000;
  Figure 1. Average allocation time of 10'000'000 blocks of 32 byte size by one thread
  
 ![](/pics/avg_alloc_time_test_5_thread.png)<br />
- Figure 1. Average allocation time of 10'000'000 blocks of 32 byte size by 5 threads<br />
+ Figure 2. Average allocation time of 10'000'000 blocks of 32 byte size by 5 threads<br />
  
 Alos full info about performance test results you may see in the following files:
 
