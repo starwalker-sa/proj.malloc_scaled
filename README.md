@@ -7,6 +7,7 @@ It allocates, reallocates and releases memory blocks of various sizes in constan
 
 The memory allocator was built in and successfuly tested on UNREAL ENGINE 5.4.<br />
 Future versions of the malloc will be much more optimized.
+Also I'm working on CMake file for crossplatform compiling, but cant show it yet (.
 
 # Source structure
  1. source/malloc_scaled      - the malloc source code;
